@@ -4,7 +4,7 @@
 const A = [],
     curryStr = ['P', 'Q', 'R']; 
 
-for(let x = 0; x < 6; x++){
+for(let x = 0; x < 20; x++){
     let num = Math.floor(Math.random()*99) + 1;
     num *= Math.floor(Math.random()*2) == 1 ? 1 : -1;
     A.push(num);
