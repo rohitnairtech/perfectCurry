@@ -28,7 +28,7 @@ const makeCurry = (intList) => {
     }
     const {P, Q, R} = weights;
     if(P === Q === R){
-        return "Equal";
+        return curryIngredient.join();
     }
     else{
         return "noLuck";
